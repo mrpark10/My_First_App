@@ -1,0 +1,12 @@
+{
+  "_comment_1": "이 파일은 '익명 메시지 데이터의 모양 예시'입니다.",
+  "_comment_2": "messages 는 배열이고, 각 항목은 { text, createdAt } 형태입니다.",
+  "_comment_3": "createdAt 은 ISO 8601 형식의 시간 문자열입니다.",
+  "_example": {
+    "messages": [
+      { "text": "오늘 급식 맛있겠다", "createdAt": "2026-05-06T12:10:00" },
+      { "text": "체육 시간 기대됨!",   "createdAt": "2026-05-06T12:11:30" },
+      { "text": "사실 좀 졸려요...",   "createdAt": "2026-05-06T12:12:45" }
+    ]
+  }
+}

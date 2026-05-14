@@ -1,0 +1,31 @@
+# 이 파일은 Flutter 프로젝트의 "설명서"입니다.
+# - 프로젝트 이름, 버전
+# - 사용할 외부 패키지(=라이브러리) 목록
+# - assets(이미지/폰트/데이터 파일) 등록
+# 을 적는 곳입니다.
+
+name: mood_board
+description: "우리반 감정 리포트 - 익명 이모지 투표 대시보드"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 나중에 추가 예정:
+  # shared_preferences: ^2.2.0   # 브라우저에 투표 결과 저장
+  # fl_chart: ^0.66.0            # 가로 바 차트 그리기
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # JSON 예시 파일을 앱에서 읽을 수 있게 등록
+  assets:
+    - assets/data/
