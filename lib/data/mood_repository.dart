@@ -19,6 +19,12 @@ class MoodRepository {
     }
   }
 
+  void removeVote(String emoji) {
+    if (_votes.containsKey(emoji) && _votes[emoji]! > 0) {
+      _votes[emoji] = _votes[emoji]! - 1;
+    }
+  }
+
   List<Message> getMessages() => List.unmodifiable(_messages);
 
   void addMessage(String text) {

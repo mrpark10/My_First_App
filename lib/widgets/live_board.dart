@@ -66,7 +66,8 @@ class LiveBoard extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
             ),
             const SizedBox(height: 8),
-            Expanded(
+            SizedBox(
+              height: 220,
               child: messages.isEmpty
                   ? const Center(
                       child: Text(
